@@ -18,4 +18,11 @@ ytvids
     ///  TextView hellotext = findViewById(R.id.helloText); /// 
     
     därefter /// hellotext.setVisibility(View.VISIBLE); /// i vilket hellotext sätts som Visible.
+    
+    ![image](https://user-images.githubusercontent.com/102797583/164239212-9d70fe5a-8299-4480-b5d4-97c5222681e6.png)
 
+    går att använda onClick för att skapa metoder.
+    
+    ![image](https://user-images.githubusercontent.com/102797583/164239410-8e9648a5-6618-42b1-8fde-1f373d0cb524.png)
+
+    här för att göra så att båda knapparna har samma funktion, dvs båda knapparna disablar sin egen knapp på "onClick"
