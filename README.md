@@ -2,6 +2,8 @@
 ytvids
 
 
+![image](https://user-images.githubusercontent.com/102797583/164236711-c3ef9b8c-4f11-4e19-93ef-bca057101a08.png)
+
 
 1. gjort en constraint "låda" med 3 olika knappar
 
