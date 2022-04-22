@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 
 import org.w3c.dom.Text;
@@ -45,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
 
         TextView firstName = findViewById(R.id.firstName);
         TextView fakeName = findViewById(R.id.fakeName);
-        TextView fakeNameedt = findViewById(R.id.textFakeName);
+
         TextView firstNameedt = findViewById(R.id.textFirstName);
 
         Button logindetail = findViewById(R.id.beep);
@@ -57,6 +58,8 @@ public class MainActivity extends AppCompatActivity {
                 String loginfirstname = firstName.getText().toString();
 
                 Log.d("===", loginfirstname);
+
+                firstNameedt.setText(loginfirstname);
             }
         });
 
