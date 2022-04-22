@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import org.w3c.dom.Text;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -35,10 +37,28 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 changeText.setText("1");
-                Log.d("===", "knapp  beep klick");
+                Log.d("===", "knapp  beep2 klick");
             }
         });
 
+
+
+        TextView firstName = findViewById(R.id.firstName);
+        TextView fakeName = findViewById(R.id.fakeName);
+        TextView fakeNameedt = findViewById(R.id.textFakeName);
+        TextView firstNameedt = findViewById(R.id.textFirstName);
+
+        Button logindetail = findViewById(R.id.beep);
+        logindetail.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Log.d("===", "knapp beep klick");
+
+                String loginfirstname = firstName.getText().toString();
+
+                Log.d("===", loginfirstname);
+            }
+        });
 
     }
 
