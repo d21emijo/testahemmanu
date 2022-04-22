@@ -19,7 +19,6 @@ public class MainActivity extends AppCompatActivity {
 
 
         Button textknapp = findViewById(R.id.toggletext);
-
         textknapp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -30,6 +29,17 @@ public class MainActivity extends AppCompatActivity {
                 hellotext.setVisibility(View.VISIBLE);
             }
         });
+
+        Button changeText = findViewById(R.id.beep2);
+        changeText.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                changeText.setText("1");
+                Log.d("===", "knapp  beep klick");
+            }
+        });
+
+
     }
 
 
