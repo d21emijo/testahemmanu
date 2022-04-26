@@ -106,3 +106,10 @@ gå till text attribut och välj den string som ska användas.
 ![image](https://user-images.githubusercontent.com/102797583/165298284-316a6012-1872-42eb-b084-9445557b265c.png)
 
 
+
+    ##skapa en backarrow med hjälp av parentactivityname i manifest.xml
+    
+![image](https://user-images.githubusercontent.com/102797583/165299663-b8e24be1-8c65-45f3-9097-080ab9f09697.png)
+
+
+
