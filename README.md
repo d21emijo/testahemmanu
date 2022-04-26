@@ -49,7 +49,11 @@ ytvids
 
       alerts!
         
+        
+        
         ![image](https://user-images.githubusercontent.com/102797583/165261722-7a1ed548-c728-441a-96b7-05eacb0a2206.png)
+        
+        
         
         ## Toast.makeText(MainActivity.this, "du heter alltså " + loginfirstname, Toast.LENGTH_SHORT).show();  ##
         
@@ -58,14 +62,20 @@ ytvids
         
       ##new actiyvity
         
+        
+        
         ![image](https://user-images.githubusercontent.com/102797583/165269548-96f935a7-bb68-4f24-8e22-ba0e36b3b76c.png)
         
 
         ![image](https://user-images.githubusercontent.com/102797583/165269943-44e3a251-2a67-46a1-8f88-05da7613fd61.png)
         
+        ga
         ![image](https://user-images.githubusercontent.com/102797583/165272430-e6696242-77cd-4796-9bae-5120d0624507.png)
         
-        ![image](https://user-images.githubusercontent.com/102797583/165272585-0f42a927-9173-4497-aa52-b7c7dcc69890.png)
+        
+        ha
+        
+![image](https://user-images.githubusercontent.com/102797583/165272585-0f42a927-9173-4497-aa52-b7c7dcc69890.png)
         
         
         använder buttons onclick för att komma till ny sida, skapar ny intent och därefter startar den
