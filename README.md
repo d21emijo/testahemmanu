@@ -47,7 +47,7 @@ ytvids
         
         
 
-4.      alerts!
+      alerts!
         
         ![image](https://user-images.githubusercontent.com/102797583/165261722-7a1ed548-c728-441a-96b7-05eacb0a2206.png)
         
@@ -56,7 +56,7 @@ ytvids
         mainactivitity.this där this bestämmer i vilken aktivity vi är i.
 
         
-5.      ##new actiyvity
+      ##new actiyvity
         1.
         ![image](https://user-images.githubusercontent.com/102797583/165269548-96f935a7-bb68-4f24-8e22-ba0e36b3b76c.png)
         2. 
