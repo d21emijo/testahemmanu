@@ -44,7 +44,17 @@ ytvids
         
         " firstNameedt.setText(loginfirstname);  " 
         sätter firstname variabeln till den input från loginfirstname här
-      
+        
+        
+
+4.      alerts!
+        
+        ![image](https://user-images.githubusercontent.com/102797583/165261722-7a1ed548-c728-441a-96b7-05eacb0a2206.png)
+        
+        ## Toast.makeText(MainActivity.this, "du heter alltså " + loginfirstname, Toast.LENGTH_SHORT).show();  ##
+        
+        mainactivitity.this där this bestämmer i vilken aktivity vi är i.
+
         
     
 
