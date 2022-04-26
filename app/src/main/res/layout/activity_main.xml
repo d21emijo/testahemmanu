@@ -56,6 +56,7 @@
         android:ems="10"
         android:hint="2"
         android:inputType="textPersonName"
+        android:minHeight="48dp"
         app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
         app:layout_constraintTop_toBottomOf="@+id/fakeName"
         tools:layout_editor_absoluteX="98dp" />
@@ -87,7 +88,7 @@
             android:shadowColor="#B62828"
             android:shadowDx="2"
             android:shadowRadius="2"
-            android:text="Resetknapp"
+            android:text="visa hello text"
             android:textAlignment="viewStart"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textColor="#FF6E40"
@@ -100,7 +101,7 @@
             app:layout_constraintStart_toStartOf="parent" />
 
         <Button
-            android:id="@+id/beep2"
+            android:id="@+id/launchactivity"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
@@ -109,15 +110,15 @@
             android:backgroundTint="#C34E4E"
             android:fontFamily="cursive"
 
+            android:onClick="newscreen"
             android:paddingLeft="30dp"
+
             android:paddingRight="30dp"
-            android:password="false"
-            android:phoneNumber="false"
             android:scrollbars="vertical"
             android:shadowColor="#B62828"
             android:shadowDx="2"
             android:shadowRadius="2"
-            android:text="stängaav"
+            android:text="screens"
             android:textAlignment="viewStart"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textColor="#FF6E40"
@@ -146,7 +147,7 @@
             android:shadowColor="#B62828"
             android:shadowDx="2"
             android:shadowRadius="2"
-            android:text="stängaav"
+            android:text="logg in"
             android:textAlignment="viewStart"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textColor="#FF6E40"

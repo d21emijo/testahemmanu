@@ -2,6 +2,7 @@ package com.example.testahemmanu;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -34,14 +35,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button changeText = findViewById(R.id.beep2);
-        changeText.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                changeText.setText("1");
-                Log.d("===", "knapp  beep2 klick");
-            }
-        });
+
 
 
 
@@ -66,9 +60,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
+
     }
 
-
+    public void newscreen(View v){
+        Intent i = new Intent(this, SettingsActivity.class);
+        startActivity(i);
+    }
 
 
 
