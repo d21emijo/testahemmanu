@@ -1,5 +1,5 @@
 # testahemmanu
-ytvids
+## ytvids
 
 
     ![image](https://user-images.githubusercontent.com/102797583/164236711-c3ef9b8c-4f11-4e19-93ef-bca057101a08.png)
@@ -8,6 +8,11 @@ ytvids
 1. gjort en constraint "låda" med 3 olika knappar
 
     ![image](https://user-images.githubusercontent.com/102797583/164216319-55c64311-34b1-4b30-a825-fe6badaadec3.png)
+
+
+
+
+
 
 2. den översta knappen(toggletext) tar fram den dolda textvy'n med id't hellotext där en knapp defineras mha 
     
@@ -27,7 +32,12 @@ ytvids
 
     här för att göra så att båda knapparna har samma funktion, dvs båda knapparna disablar sin egen knapp på "onClick"
     
-    
+ 
+ 
+ 
+ 
+ 
+ 
 3.    
     ![image](https://user-images.githubusercontent.com/102797583/164695491-772de06e-e074-40d3-b6a3-c970d72d9214.png)
     
@@ -45,9 +55,14 @@ ytvids
         " firstNameedt.setText(loginfirstname);  " 
         sätter firstname variabeln till den input från loginfirstname här
         
-        
 
-      alerts!
+
+
+
+
+
+
+  # alerts!
         
         
         
@@ -59,8 +74,13 @@ ytvids
         
         mainactivitity.this där this bestämmer i vilken aktivity vi är i.
 
-        
-      ##new actiyvity
+  
+  
+  
+  
+  
+  
+  # new actiyvity
         
         
         
@@ -78,8 +98,11 @@ ytvids
 ![image](https://user-images.githubusercontent.com/102797583/165272585-0f42a927-9173-4497-aa52-b7c7dcc69890.png)
         
         
-        använder buttons onclick för att komma till ny sida, skapar ny intent och därefter startar den
-        
+använder buttons onclick för att komma till ny sida, skapar ny intent och därefter startar den
+
+
+
+# @stringvärden
         
 ![image](https://user-images.githubusercontent.com/102797583/165296139-bac51708-3f97-461d-bda9-a173a878b852.png)
 
@@ -101,13 +124,13 @@ gå till text attribut och välj den string som ska användas.
        
   
   
-  ##ändra labels i manifest.xml ##
+# ändra labels i manifest.xml 
   
 ![image](https://user-images.githubusercontent.com/102797583/165298284-316a6012-1872-42eb-b084-9445557b265c.png)
 
 
 
-    ##skapa en backarrow med hjälp av parentactivityname i manifest.xml
+# skapa en backarrow med hjälp av parentactivityname i manifest.xml
     
 ![image](https://user-images.githubusercontent.com/102797583/165299663-b8e24be1-8c65-45f3-9097-080ab9f09697.png)
 
