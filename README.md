@@ -80,9 +80,22 @@ ytvids
         
         använder buttons onclick för att komma till ny sida, skapar ny intent och därefter startar den
         
+        
+![image](https://user-images.githubusercontent.com/102797583/165296139-bac51708-3f97-461d-bda9-a173a878b852.png)
+
+    
+    istället för att lägga in värde direkt i ex en textview så används string.xml
+    
+![image](https://user-images.githubusercontent.com/102797583/165296329-2ec7ec69-355a-4e26-8c70-757b3a093c2f.png)
+
+    lägg till en new key
+
+        
        
 
+![image](https://user-images.githubusercontent.com/102797583/165296457-f888f1fe-9e67-4b29-b2c7-8bf85536386d.png)
 
+gå till text attribut och välj den string som ska användas.
 
-       
+       "" tools:text="@string/my_string" "" skapas då och hämtar den text som ska innehållas
 
