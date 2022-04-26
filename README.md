@@ -98,4 +98,11 @@ ytvids
 gå till text attribut och välj den string som ska användas.
 
        "" tools:text="@string/my_string" "" skapas då och hämtar den text som ska innehållas
+       
+  
+  
+  ##ändra labels i manifest.xml ##
+  
+![image](https://user-images.githubusercontent.com/102797583/165298284-316a6012-1872-42eb-b084-9445557b265c.png)
+
 
