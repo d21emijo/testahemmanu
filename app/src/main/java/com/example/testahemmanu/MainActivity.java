@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import org.w3c.dom.Text;
 
@@ -60,6 +61,8 @@ public class MainActivity extends AppCompatActivity {
                 Log.d("===", loginfirstname);
 
                 firstNameedt.setText(loginfirstname);
+
+                Toast.makeText(MainActivity.this, "du heter alltså " + loginfirstname, Toast.LENGTH_SHORT).show();
             }
         });
 
