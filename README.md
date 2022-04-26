@@ -1,22 +1,27 @@
 # testahemmanu
 ## ytvids
 
+# :shipit:
+<details><summary> gaeg</summary></details>
 
-    ![image](https://user-images.githubusercontent.com/102797583/164236711-c3ef9b8c-4f11-4e19-93ef-bca057101a08.png)
+<details><summary> constraints låda</summary>
+![image](https://user-images.githubusercontent.com/102797583/164236711-c3ef9b8c-4f11-4e19-93ef-bca057101a08.png)
 
 
 1. gjort en constraint "låda" med 3 olika knappar
 
-    ![image](https://user-images.githubusercontent.com/102797583/164216319-55c64311-34b1-4b30-a825-fe6badaadec3.png)
+![image](https://user-images.githubusercontent.com/102797583/164216319-55c64311-34b1-4b30-a825-fe6badaadec3.png)
 
 
 
+</details>
 
+<details><summary>findview + onclick</summary>
 
-
-2. den översta knappen(toggletext) tar fram den dolda textvy'n med id't hellotext där en knapp defineras mha 
+    2. den översta knappen(toggletext) tar fram den dolda textvy'n med id't hellotext där en knapp defineras mha 
     
-    /// Button textknapp = findViewById(R.id.toggletext); ///
+   
+    Button textknapp = findViewById(R.id.toggletext);
     
     där java sätter en ny "textknapp" för id toggletext. därefter skapas en metod med "setOnClickListener" i vilket vi definerar en   
     
@@ -24,19 +29,19 @@
     
     därefter /// hellotext.setVisibility(View.VISIBLE); /// i vilket hellotext sätts som Visible.
     
-    ![image](https://user-images.githubusercontent.com/102797583/164239212-9d70fe5a-8299-4480-b5d4-97c5222681e6.png)
+![image](https://user-images.githubusercontent.com/102797583/164239212-9d70fe5a-8299-4480-b5d4-97c5222681e6.png)
 
     går att använda onClick för att skapa metoder.
     
-    ![image](https://user-images.githubusercontent.com/102797583/164239410-8e9648a5-6618-42b1-8fde-1f373d0cb524.png)
+![image](https://user-images.githubusercontent.com/102797583/164239410-8e9648a5-6618-42b1-8fde-1f373d0cb524.png)
 
     här för att göra så att båda knapparna har samma funktion, dvs båda knapparna disablar sin egen knapp på "onClick"
     
+ </details>
  
  
  
- 
- 
+<details><summary> Settext från input</summary>
  
 3.    
     ![image](https://user-images.githubusercontent.com/102797583/164695491-772de06e-e074-40d3-b6a3-c970d72d9214.png)
@@ -55,7 +60,7 @@
         " firstNameedt.setText(loginfirstname);  " 
         sätter firstname variabeln till den input från loginfirstname här
         
-
+</details>
 
 
 
