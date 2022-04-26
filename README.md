@@ -57,9 +57,9 @@ ytvids
 
         
       ##new actiyvity
-        1.
+        
         ![image](https://user-images.githubusercontent.com/102797583/165269548-96f935a7-bb68-4f24-8e22-ba0e36b3b76c.png)
-        2. 
+        
 
         ![image](https://user-images.githubusercontent.com/102797583/165269943-44e3a251-2a67-46a1-8f88-05da7613fd61.png)
         
